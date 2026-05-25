@@ -1,0 +1,24 @@
+<div class="hdg-card">
+  <div class="upload-area" id="upload-area">
+    <div class="upload-placeholder">
+      <span class="upload-icon">🌭</span>
+      <span class="upload-text">Upload or snap a photo</span>
+    </div>
+    <input type="file" id="file-input" accept="image/*" capture>
+  </div>
+
+  <div class="preview-area" id="preview-area" style="display:none;">
+    <img id="preview-img" src="" alt="Preview">
+    <div class="loading-state" id="loading-state">
+      <div class="spinner"></div>
+      <span>Analyzing…</span>
+    </div>
+  </div>
+
+  <div class="result-area" id="result-area" style="display:none;">
+    <img id="result-img" src="" alt="Uploaded photo">
+    <div class="verdict" id="verdict"></div>
+    <div class="explanation" id="explanation"></div>
+    <button class="try-again-btn" id="try-again-btn">Try Another Photo</button>
+  </div>
+</div>

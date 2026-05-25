@@ -1,0 +1,10 @@
+{
+  "extension": ".hotdog",
+  "badge": "HDG",
+  "defaultTitle": "Hot Dog Detector",
+  "dependencies": {
+    "scripts": [],
+    "styles": []
+  },
+  "handler": "llm-direct"
+}
